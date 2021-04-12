@@ -1,0 +1,157 @@
+/**
+Colors
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+Footer
+*/
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
+
+h1 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 2.375rem;
+  }
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (min-width: 1440px) {
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  p {
+    font-size: .875rem;
+  }
+}
+
+input {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+
+input[class="container-zest__btn"] {
+  color: #E38826;
+}
+
+input[class="container-mosque__btn"] {
+  color: #006970;
+}
+
+input[class="container-cyprus__btn"] {
+  color: #006970;
+}
+
+@media screen and (min-width: 1440px) {
+  input {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  input {
+    font-size: .875rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    padding: 3.4375rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 3.75rem;
+  }
+}
+
+.container-zest {
+  background-color: #E38826;
+}
+
+.container-mosque {
+  background-color: #006970;
+}
+
+.container-cyprus {
+  background-color: #004241;
+}
+
+input {
+  display: inline-block;
+  background-color: #FFFFFF;
+  border: solid 2px #FFFFFF;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+input.is-active {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 375px) {
+  input {
+    width: 10.375rem;
+    height: 3.4375rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  input {
+    width: 11.625rem;
+    height: 3.75rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 3.4375rem;
+}
+/*# sourceMappingURL=style.css.map */

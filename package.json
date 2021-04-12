@@ -1,0 +1,16 @@
+{
+  "name": "column-3",
+  "version": "1.0.0",
+  "description": "![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "include-media": "^1.4.9",
+    "sass": "^1.32.8",
+    "yarn": "^1.22.10"
+  }
+}
