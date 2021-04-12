@@ -59,6 +59,7 @@ p {
 input {
   font-family: "Lexend Deca";
   font-weight: 400;
+  font-size: .875rem;
 }
 
 input[class="container-zest__btn"] {
@@ -73,25 +74,17 @@ input[class="container-cyprus__btn"] {
   color: #006970;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   input {
     font-size: 1.125rem;
   }
 }
 
-@media screen and (max-width: 375px) {
-  input {
-    font-size: .875rem;
-  }
+.container {
+  padding: 3.4375rem;
 }
 
-@media screen and (max-width: 375px) {
-  .container {
-    padding: 3.4375rem;
-  }
-}
-
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   .container {
     padding: 3.75rem;
   }
@@ -116,6 +109,8 @@ input {
   border-radius: 50px;
   outline: none;
   cursor: pointer;
+  width: 10.375rem;
+  height: 3.4375rem;
 }
 
 input.is-active {
@@ -123,21 +118,14 @@ input.is-active {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 375px) {
-  input {
-    width: 10.375rem;
-    height: 3.4375rem;
-  }
-}
-
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   input {
     width: 11.625rem;
     height: 3.75rem;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
   main {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
