@@ -29,6 +29,7 @@ p {
 input {
     font-family: "Lexend Deca";
     font-weight: 400;
+    font-size: .875rem;
 
     &[class="container-zest__btn"] {
         color: $zest;
@@ -42,11 +43,7 @@ input {
         color: $mosque;
     }
 
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 768px) {
         font-size: 1.125rem;
-    }
-
-    @media screen and (max-width: 375px) {
-        font-size: .875rem;
     }
 }

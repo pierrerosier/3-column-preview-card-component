@@ -1,10 +1,8 @@
 .container {
+    padding: 3.4375rem;
 
-    @media screen and (max-width: 375px) {
-        padding: 3.4375rem;
-    }
 
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 768px) {
         padding: 3.75rem;
     }
         

@@ -5,17 +5,15 @@ input{
         border-radius: 50px;
         outline: none;
         cursor: pointer;
+        width: 10.375rem;
+        height: 3.4375rem;
 
         &.is-active {
             background-color: transparent;
             color: $white;
         }
 
-    @media screen and (max-width: 375px){
-        width: 10.375rem;
-        height: 3.4375rem;
-    }
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 768px) {
         width: 11.625rem;
         height: 3.75rem;
     }
