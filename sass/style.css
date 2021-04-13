@@ -86,13 +86,13 @@ input[class="container-cyprus__btn"] {
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 1.5rem;
+    padding: 1.75rem;
   }
 }
 
 @media screen and (min-width: 992px) {
   .container {
-    padding: 3.5rem;
+    padding: 2.5rem;
   }
 }
 
