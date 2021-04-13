@@ -2,6 +2,10 @@
     padding: 3.4375rem;
 
     @media screen and (min-width: 768px) {
+        padding: 1.25rem;
+    }
+
+    @media screen and (min-width: 834px) {
         padding: 1.75rem;
     }
 
@@ -11,6 +15,5 @@
 
     @media screen and (min-width: 1440px) {
         padding: 3.75rem;
-    }
-        
+    }       
 }
