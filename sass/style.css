@@ -8,16 +8,8 @@ Colors
           box-sizing: border-box;
 }
 
-/*
-Footer
-*/
-.attribution {
-  font-size: 0.75rem;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3E52A3;
+body {
+  font-size: 16px;
 }
 
 h1 {
@@ -80,25 +72,42 @@ input[class="container-cyprus__btn"] {
   }
 }
 
+/**
+Footer
+*/
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .container {
   padding: 3.4375rem;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-row-gap: 3.4375rem;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 1.25rem;
-  }
-}
-
-@media screen and (min-width: 834px) {
-  .container {
-    padding: 1.75rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .container {
-    padding: 2.5rem;
+    -ms-flex-preferred-size: 33.333333%;
+        flex-basis: 33.333333%;
+    padding: 2rem;
   }
 }
 
@@ -141,23 +150,5 @@ input.is-active {
     width: 11.625rem;
     height: 3.75rem;
   }
-}
-
-@media screen and (min-width: 768px) {
-  main {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-}
-
-.container {
-  display: -ms-grid;
-  display: grid;
-  grid-row-gap: 3.4375rem;
 }
 /*# sourceMappingURL=style.css.map */

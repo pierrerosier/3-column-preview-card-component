@@ -4,7 +4,61 @@
     box-sizing: border-box;
 }
 
-/*
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    color: $white;
+
+    @media screen and (min-width: 1440px) {
+        font-size: 3.25rem;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 2.375rem;
+    }
+}
+
+p {
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    color: $white-transp;
+
+    @media screen and (min-width: 1440px) {
+        font-size: 1.125rem;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: .875rem;
+    }
+}
+
+input {
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: .875rem;
+
+    &[class="container-zest__btn"] {
+        color: $zest;
+    }
+
+    &[class="container-mosque__btn"] {
+        color: $mosque;
+    }
+
+    &[class="container-cyprus__btn"] {
+        color: $mosque;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.125rem;
+    }
+}
+
+/**
 Footer
 */
 .attribution { 
